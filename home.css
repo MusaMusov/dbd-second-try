@@ -1,0 +1,75 @@
+nav {
+    height: 100px;
+    width: 100vw;
+    background-color: rgb(78, 78, 78);
+    position: fixed;
+}
+
+#huntressLogo {
+    width: 5%;
+}
+
+#statsDiv {
+    border-radius: 15px;
+    background-color: #f58571;
+    color: #e3e2df;
+    height: 15vh;
+    width: 20vw;
+    padding: 20px;
+    margin: 15px;
+    margin-left: 8%;
+}
+
+#killerDiv {
+    border: 3px solid #216974;
+    background-color: #f58571;
+    border-radius: 15px;
+    color: #e3e2df;
+    height: 15vh;
+    width: 20vw;
+    padding: 20px;
+    margin: 15px;
+    margin-left: 8%;
+    transition: background-color, border, height, width;
+}
+
+#killerDiv:hover {
+    background-color: #216974;
+    border: 3px solid #f58571;
+    color: #f58571;
+    height: 17vh;
+    width: 22vw;
+    transition: 200ms;
+}
+
+#statsDiv:hover {
+    background-color: #216974;
+    border: 3px solid #f58571;
+    color: #f58571;
+    height: 17vh;
+    width: 22vw;
+    transition: 200ms;
+}
+
+
+/* links */
+
+a:link { 
+    text-decoration: none; 
+    color: rgb(78, 78, 78);
+}
+    
+a:visited {
+    text-decoration: none;
+    color: rgb(78, 78, 78);
+}
+
+a:hover {
+    text-decoration: none; 
+    color: rgb(78, 78, 78);
+}
+
+a:active { 
+    text-decoration: none; 
+    color: rgb(78, 78, 78);
+}
