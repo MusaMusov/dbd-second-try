@@ -25,12 +25,10 @@ section {
 
 section:nth-of-type(1) {
     background-color: rgb(60, 60, 60);
-    color: #f58571;
 }
 
 section:nth-of-type(2) {
     background-color: rgb(45, 45, 45);
-    color: #f58571;
     align-items: flex-start;
     height: calc(100vh - 100px);
     scroll-margin-top: 100px;
@@ -48,6 +46,14 @@ h1 {
     font-size: 5em;
 }
 
+.h1Peach {
+    color: #f58571;
+}
+
+.h1White {
+    color: honeydew;
+}
+
 h2 {
     align-items: center;
     margin-top: 25%;
@@ -55,4 +61,13 @@ h2 {
 
 #title {
     margin-top: 10%;
+}
+
+.menu {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+    padding: 90px;
+    bottom: 20%;
 }

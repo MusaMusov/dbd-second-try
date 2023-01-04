@@ -9,19 +9,28 @@ nav {
     width: 5%;
 }
 
-#statsDiv {
-    border-radius: 15px;
-    background-color: #f58571;
-    color: #e3e2df;
-    height: 15vh;
-    width: 20vw;
-    padding: 20px;
-    margin: 15px;
-    margin-left: 8%;
+.navTitle {
+    position: relative;
+    left: 39%;
+    top: -50px;
+    font-size: 1.5em;
+    font-family: "playfair display", sans-serif, helvetica;
+    color: #f58571;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#titleFive {
+    top: -40px;
+    color: honeydew;
+}
+
+#titleTen {
+    top: -30px;
 }
 
 #killerDiv {
-    border: 3px solid #216974;
+    border: 3px solid honeydew;
     background-color: #f58571;
     border-radius: 15px;
     color: #e3e2df;
@@ -29,12 +38,59 @@ nav {
     width: 20vw;
     padding: 20px;
     margin: 15px;
-    margin-left: 8%;
-    transition: background-color, border, height, width;
+    margin-left: -66%;
+}
+
+#infoDiv {
+    border: 3px solid #f58571;
+    border-radius: 15px;
+    background-color: honeydew;
+    color: #e3e2df;
+    height: 15vh;
+    width: 20vw;
+    padding: 20px;
+    margin: 15px;
+    margin-left: -33%;
+}
+
+#sourceDiv {
+    border: 3px solid honeydew;
+    border-radius: 15px;
+    background-color: #f58571;
+    color: #e3e2df;
+    height: 15vh;
+    width: 20vw;
+    padding: 20px;
+    margin: 15px;
+    margin-left: 0;
+}
+
+#contactDiv {
+    border: 3px solid #f58571;
+    border-radius: 15px;
+    background-color: honeydew;
+    color: #e3e2df;
+    height: 15vh;
+    width: 20vw;
+    padding: 20px;
+    margin: 15px;
+    margin-left: 33%;
+}
+
+#fifthDiv {
+    border: 3px solid honeydew;
+    border-radius: 15px;
+    background-color: #f58571;
+    color: #e3e2df;
+    height: 15vh;
+    width: 20vw;
+    padding: 20px;
+    margin: 15px;
+    margin-left: 33%;
 }
 
 #killerDiv:hover {
-    background-color: #216974;
+    background-color: honeydew;
     border: 3px solid #f58571;
     color: #f58571;
     height: 17vh;
@@ -42,13 +98,75 @@ nav {
     transition: 200ms;
 }
 
-#statsDiv:hover {
-    background-color: #216974;
+#infoDiv:hover {
+    background-color: honeydew;
     border: 3px solid #f58571;
     color: #f58571;
     height: 17vh;
     width: 22vw;
     transition: 200ms;
+}
+
+#sourceDiv:hover {
+    background-color: honeydew;
+    border: 3px solid #f58571;
+    color: #f58571;
+    height: 17vh;
+    width: 22vw;
+    transition: 200ms;
+}
+
+
+#contactDiv:hover {
+    background-color: honeydew;
+    border: 3px solid #f58571;
+    color: #f58571;
+    height: 17vh;
+    width: 22vw;
+    transition: 200ms;
+}
+
+#fifthDiv:hover {
+    background-color: #e3e2df;
+    border: 3px solid honeydew;
+    color: #f58571;
+    height: 17vh;
+    width: 22vw;
+    transition: 200ms;
+}
+
+#leftMenu, #rightMenu, #fifthMenu {
+    position: relative;
+}
+
+#leftMenu {
+    margin-right: 0;
+    left: 7.5%;
+}
+
+#rightMenu {
+   margin-left: 0;
+   right: 7.5%;
+}
+
+#fifthDiv {
+    margin-left: 0;
+    right: 20%;
+}
+
+#sourceDiv {
+   margin-left: 70%;
+}
+
+
+
+
+#fiveDown {
+    margin-top: 28%;
+}
+
+#tenDown {
+    margin-top: 31%;
 }
 
 
@@ -58,15 +176,15 @@ a:link {
     text-decoration: none; 
     color: rgb(78, 78, 78);
 }
-    
+
 a:visited {
     text-decoration: none;
     color: rgb(78, 78, 78);
 }
 
 a:hover {
-    text-decoration: none; 
-    color: rgb(78, 78, 78);
+    text-decoration: none;
+    color: #f58571;
 }
 
 a:active { 
