@@ -6,8 +6,12 @@ body {
 }
 
 .main {
+    display: flex;
+    align-items: center;
+    flex-flow: column;
     background-color: #f58571;
     width: 22.5vw;
+    height: 33vh;
     padding: 6px;
     margin: 6px;
     border: 3px solid honeydew;
@@ -36,9 +40,8 @@ body {
 
 .image {
     position: relative;
-    width: 40%;
-    align-items: center;
-    margin-right: -50%;
+    width: 9vw;
+    align-self: center;
 }
 
 section {
@@ -69,7 +72,30 @@ h1 {
 }
 
 h2 {
+    top: 5%;
     margin-left: 20%;
+    align-self: flex-start;
+    justify-content: center;
 }
 
-/* dumb images*/
+/* links */
+
+a:link { 
+    text-decoration: none; 
+    color: rgb(78, 78, 78);
+}
+
+a:visited {
+    text-decoration: none;
+    color: rgb(78, 78, 78);
+}
+
+a:hover {
+    text-decoration: none;
+    color: #f58571;
+}
+
+a:active { 
+    text-decoration: none; 
+    color: rgb(78, 78, 78);
+}
